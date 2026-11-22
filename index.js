@@ -1,20 +1,5 @@
-/* Hady Zen'in */
-/* dibuat oleh Hady with love - Copyright HadyZenin 2026 */
-
-const { spawn } = require('child_process');
-
-function hady() {
-  const child = spawn("node hady.js", {
-    cwd: __dirname,
-    stdio: "inherit",
-    shell: true
+/* Zen bot v0.1 oleh edinst. Berdasarkan Kiyopon oleh Hady Zen'in. */
+require('./src/main').start().catch(error => {
+  console.error('[Zen] Gagal memulai:', error.message);
+  process.exitCode = 1;
 });
-
-  child.on("close", (code) => {
-    if (code == 2) {
-      hady(); 
-  }
- });
-};
-
-hady();
