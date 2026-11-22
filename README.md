@@ -1,6 +1,6 @@
 # Zen bot v0.1
 
-Bot WhatsApp minimalis yang dikembangkan oleh **edinst**, berdasarkan proyek Kiyopon oleh **Hady Zen'in**. Atribusi dan catatan asli dipertahankan di [HakCipta.txt](HakCipta.txt). Zen bot adalah pengembangan terpisah, bukan versi resmi Kiyopon.
+Bot WhatsApp minimalis yang dikembangkan oleh **edinst**, berdasarkan proyek Kiyopon oleh **Hady Zen'in**. Hak cipta dipertahankan di [HakCipta.txt](HakCipta.txt). Zen bot adalah pengembangan terpisah, bukan versi resmi Kiyopon.
 
 ## Persiapan
 
